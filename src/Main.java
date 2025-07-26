@@ -6,6 +6,19 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
+        byte book = 1;
+        System.out.println(" Значение переменной book с типом byte равно " + book);
+        short notebook = 2;
+        System.out.println(" Значение переменной notebook с типом short равно " + notebook);
+        int pencil = 3;
+        System.out.println(" Значение переменной pencil с типом int равно " + pencil);
+        long pen = 4;
+        System.out.println(" Значение переменной pen с типом long равно " + pen);
+        float eraser = 5f;
+        System.out.println(" Значение переменной eraser с типом float равно " + eraser);
+        double ruler = 6;
+        System.out.println(" Значение переменной ruler с типом double равно " + ruler);
+
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
