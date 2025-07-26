@@ -44,6 +44,26 @@ public class Main {
         System.out.println(lists);
         int students = lists / all;
         System.out.println("На каждого ученика расчитано " + students + " листов бумаги");
+        byte bottleTwoMinutes = 16;
+        System.out.println(bottleTwoMinutes);
+        byte bottleOneMinute = 16 / 2;
+        System.out.println(bottleOneMinute);
+        int twentyMinutes = 20 * bottleOneMinute;
+        System.out.println(twentyMinutes);
+        byte dayHours = 24;
+        System.out.println(dayHours);
+        byte minutesInHour = 60;
+        System.out.println(minutesInHour);
+        int oneDayBottles = (bottleOneMinute * minutesInHour) * dayHours;
+        System.out.println(oneDayBottles);
+        int threeDaysBottles = oneDayBottles * 3;
+        System.out.println(threeDaysBottles);
+        int monthjulyBottles = oneDayBottles * 31;
+        System.out.println(monthjulyBottles);
+        int totalBottles = twentyMinutes + oneDayBottles + threeDaysBottles + monthjulyBottles;
+        System.out.println(totalBottles);
+
+
 
 
 
