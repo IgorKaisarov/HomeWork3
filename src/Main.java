@@ -118,6 +118,52 @@ public class Main {
         System.out.println(howManyDaysFirstDiet);
         int howManyDaysSecondDiet = (totalWeightLossKilo * oneKiloWeightGrams) / dietSecondGramsInDay;
         System.out.println(howManyDaysSecondDiet);
+        byte addedSalaryPersent = 10;
+        System.out.println(addedSalaryPersent);
+        float percent100 =(float) 10 / 100;
+        System.out.println(percent100);
+        int salaryMaria = 67760;
+        System.out.println(salaryMaria);
+        int salaryDenis = 83690;
+        System.out.println(salaryDenis);
+        int salaryKristina = 76230;
+        System.out.println(salaryKristina);
+        float totalSalaryMaria =(float) (salaryMaria * percent100) + salaryMaria;
+        System.out.println(totalSalaryMaria);
+        float totalSalaryDenis =(float) (salaryDenis * percent100) + salaryDenis;
+        System.out.println(totalSalaryDenis);
+        float totalSalaryKristina =(float) (salaryKristina * percent100) + salaryKristina;
+        System.out.println(totalSalaryKristina);
+        byte monthsInYear = 12;
+        System.out.println(monthsInYear);
+        int yearSalaruMaria = salaryMaria * monthsInYear;
+        System.out.println(yearSalaruMaria);
+        int yearSalaryDenis = salaryDenis * monthsInYear;
+        System.out.println(yearSalaryDenis);
+        int yearSalaryKristina = salaryKristina * monthsInYear;
+        System.out.println(yearSalaryKristina);
+        float newSalaryMaria = totalSalaryMaria * monthsInYear;
+        System.out.println(newSalaryMaria);
+        float newSalaryDenis = totalSalaryDenis * monthsInYear;
+        System.out.println(newSalaryDenis);
+        float newSalaryKristina = totalSalaryKristina * monthsInYear;
+        System.out.println(newSalaryKristina);
+        float defferentMaria = totalSalaryMaria % salaryMaria;
+        System.out.println(defferentMaria);
+        float defferentDenis = totalSalaryDenis % salaryDenis;
+        System.out.println(defferentDenis);
+        float defferentKristina = totalSalaryKristina % salaryKristina;
+        System.out.println("Маша стала получать " + totalSalaryMaria + " рублей в месяц, с годовым доходом в размере " + yearSalaruMaria + " рублей. При этом разница в доплате соствила " + defferentMaria + " от предыдущей зарплаты до повышения. Денис стал получать " + totalSalaryDenis + " рублей в месяц, с годовым доходом в размере " + yearSalaryDenis + " рублей. При этом разница в доплате составила " + defferentDenis + " от предыдущей зарплаты до повышения. Кристина стала получать " + totalSalaryKristina + " рублей в месяц, с годовым доходом в размере " + yearSalaryKristina + " рублей. При этом разница в доплате составила " + defferentKristina + " от предыдущей зарплаты до повышения.");
+
+
+
+
+
+
+
+
+
+
 
 
 
