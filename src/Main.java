@@ -18,6 +18,22 @@ public class Main {
         System.out.println(" Значение переменной eraser с типом float равно " + eraser);
         double ruler = 6;
         System.out.println(" Значение переменной ruler с типом double равно " + ruler);
+        double apple = 27.12;
+        System.out.println(apple);
+        long grape = 987678965549L;
+        System.out.println(grape);
+        float cherry = 2.786f;
+        System.out.println(cherry);
+        short raspberry = 569;
+        System.out.println(raspberry);
+        short gooseberry = -159;
+        System.out.println(gooseberry);
+        short melon = 27897;
+        System.out.println(melon);
+        byte irga = 67;
+        System.out.println(irga);
+
+
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
