@@ -62,6 +62,22 @@ public class Main {
         System.out.println(monthjulyBottles);
         int totalBottles = twentyMinutes + oneDayBottles + threeDaysBottles + monthjulyBottles;
         System.out.println(totalBottles);
+        byte totalPaint = 120;
+        System.out.println(totalPaint);
+        byte whiteInOneClass = 2;
+        System.out.println(whiteInOneClass);
+        byte brownInOneClass = 4;
+        System.out.println(brownInOneClass);
+        int oneClassPaint = whiteInOneClass + brownInOneClass;
+        System.out.println(oneClassPaint);
+        int howManyClasses = totalPaint / oneClassPaint;
+        System.out.println(howManyClasses);
+        int totalWhitePaint = howManyClasses * whiteInOneClass;
+        System.out.println(totalWhitePaint);
+        int totalBrownPaint = howManyClasses * brownInOneClass;
+        System.out.println("В школе, где " + howManyClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
+
+
 
 
 
