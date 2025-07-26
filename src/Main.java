@@ -76,6 +76,42 @@ public class Main {
         System.out.println(totalWhitePaint);
         int totalBrownPaint = howManyClasses * brownInOneClass;
         System.out.println("В школе, где " + howManyClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
+        byte bananas = 5;
+        System.out.println(bananas);
+        byte weightBanana = 80;
+        System.out.println(weightBanana);
+        int totalWeightBananas = bananas * weightBanana;
+        System.out.println(totalWeightBananas);
+        int gramsInOneKilo = 1000;
+        System.out.println(gramsInOneKilo);
+        int milkMl = 200;
+        System.out.println(milkMl);
+        byte gramsIn100MlMilk = 105;
+        System.out.println(gramsIn100MlMilk);
+        int totalWeightMilkKilo = gramsIn100MlMilk * 2;
+        System.out.println(totalWeightMilkKilo);
+        byte iceCream = 2;
+        System.out.println(iceCream);
+        byte weightIceCreamOneBriquetteGram = 100;
+        System.out.println(weightIceCreamOneBriquetteGram);
+        int totalWeightIceCream = weightIceCreamOneBriquetteGram * iceCream;
+        System.out.println(totalWeightIceCream);
+        byte eggs = 4;
+        System.out.println(eggs);
+        byte weightEggGrams = 70;
+        System.out.println(weightEggGrams);
+        int totalWeightEggs = eggs * weightEggGrams;
+        System.out.println(totalWeightEggs);
+        int totalWeightBreakfastGrams = totalWeightBananas + totalWeightMilkKilo + totalWeightIceCream + totalWeightEggs;
+        System.out.println(totalWeightBreakfastGrams);
+        float totalWeightproductsKilo =(float) totalWeightBreakfastGrams / gramsInOneKilo;
+        System.out.println(totalWeightproductsKilo);
+
+
+
+
+
+
 
 
 
