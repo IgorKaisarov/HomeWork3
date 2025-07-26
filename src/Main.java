@@ -82,9 +82,9 @@ public class Main {
         System.out.println(weightBanana);
         int totalWeightBananas = bananas * weightBanana;
         System.out.println(totalWeightBananas);
-        int gramsInOneKilo = 1000;
+        short gramsInOneKilo = 1000;
         System.out.println(gramsInOneKilo);
-        int milkMl = 200;
+        short milkMl = 200;
         System.out.println(milkMl);
         byte gramsIn100MlMilk = 105;
         System.out.println(gramsIn100MlMilk);
@@ -106,6 +106,21 @@ public class Main {
         System.out.println(totalWeightBreakfastGrams);
         float totalWeightproductsKilo =(float) totalWeightBreakfastGrams / gramsInOneKilo;
         System.out.println(totalWeightproductsKilo);
+        short dietFirstGramsInDay = 250;
+        System.out.println(dietFirstGramsInDay);
+        short dietSecondGramsInDay = 500;
+        System.out.println(dietSecondGramsInDay);
+        byte totalWeightLossKilo = 7;
+        System.out.println(totalWeightLossKilo);
+        short oneKiloWeightGrams = 1000;
+        System.out.println(oneKiloWeightGrams);
+        int howManyDaysFirstDiet = (totalWeightLossKilo * oneKiloWeightGrams) / dietFirstGramsInDay;
+        System.out.println(howManyDaysFirstDiet);
+        int howManyDaysSecondDiet = (totalWeightLossKilo * oneKiloWeightGrams) / dietSecondGramsInDay;
+        System.out.println(howManyDaysSecondDiet);
+
+
+
 
 
 
