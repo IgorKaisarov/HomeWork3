@@ -32,6 +32,19 @@ public class Main {
         System.out.println(melon);
         byte irga = 67;
         System.out.println(irga);
+        byte teacherLP = 23;
+        System.out.println(teacherLP);
+        byte teacherAS = 27;
+        System.out.println(teacherAS);
+        byte teacherEA = 30;
+        System.out.println(teacherEA);
+        int all = teacherLP + teacherAS + teacherEA;
+        System.out.println(all);
+        short lists = 480;
+        System.out.println(lists);
+        int students = lists / all;
+        System.out.println("На каждого ученика расчитано " + students + " листов бумаги");
+
 
 
 
