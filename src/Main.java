@@ -6,6 +6,181 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
 
+        byte book = 1;
+        System.out.println(" Значение переменной book с типом byte равно " + book);
+        short notebook = 2;
+        System.out.println(" Значение переменной notebook с типом short равно " + notebook);
+        int pencil = 3;
+        System.out.println(" Значение переменной pencil с типом int равно " + pencil);
+        long pen = 4;
+        System.out.println(" Значение переменной pen с типом long равно " + pen);
+        float eraser = 5f;
+        System.out.println(" Значение переменной eraser с типом float равно " + eraser);
+        double ruler = 6;
+        System.out.println(" Значение переменной ruler с типом double равно " + ruler);
+        double apple = 27.12;
+        System.out.println(apple);
+        long grape = 987678965549L;
+        System.out.println(grape);
+        float cherry = 2.786f;
+        System.out.println(cherry);
+        short raspberry = 569;
+        System.out.println(raspberry);
+        short gooseberry = -159;
+        System.out.println(gooseberry);
+        short melon = 27897;
+        System.out.println(melon);
+        byte irga = 67;
+        System.out.println(irga);
+        byte teacherLP = 23;
+        System.out.println(teacherLP);
+        byte teacherAS = 27;
+        System.out.println(teacherAS);
+        byte teacherEA = 30;
+        System.out.println(teacherEA);
+        int all = teacherLP + teacherAS + teacherEA;
+        System.out.println(all);
+        short lists = 480;
+        System.out.println(lists);
+        int students = lists / all;
+        System.out.println("На каждого ученика расчитано " + students + " листов бумаги");
+        byte bottleTwoMinutes = 16;
+        System.out.println(bottleTwoMinutes);
+        byte bottleOneMinute = 16 / 2;
+        System.out.println(bottleOneMinute);
+        int twentyMinutes = 20 * bottleOneMinute;
+        System.out.println(twentyMinutes);
+        byte dayHours = 24;
+        System.out.println(dayHours);
+        byte minutesInHour = 60;
+        System.out.println(minutesInHour);
+        int oneDayBottles = (bottleOneMinute * minutesInHour) * dayHours;
+        System.out.println(oneDayBottles);
+        int threeDaysBottles = oneDayBottles * 3;
+        System.out.println(threeDaysBottles);
+        int monthjulyBottles = oneDayBottles * 31;
+        System.out.println(monthjulyBottles);
+        int totalBottles = twentyMinutes + oneDayBottles + threeDaysBottles + monthjulyBottles;
+        System.out.println(totalBottles);
+        byte totalPaint = 120;
+        System.out.println(totalPaint);
+        byte whiteInOneClass = 2;
+        System.out.println(whiteInOneClass);
+        byte brownInOneClass = 4;
+        System.out.println(brownInOneClass);
+        int oneClassPaint = whiteInOneClass + brownInOneClass;
+        System.out.println(oneClassPaint);
+        int howManyClasses = totalPaint / oneClassPaint;
+        System.out.println(howManyClasses);
+        int totalWhitePaint = howManyClasses * whiteInOneClass;
+        System.out.println(totalWhitePaint);
+        int totalBrownPaint = howManyClasses * brownInOneClass;
+        System.out.println("В школе, где " + howManyClasses + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
+        byte bananas = 5;
+        System.out.println(bananas);
+        byte weightBanana = 80;
+        System.out.println(weightBanana);
+        int totalWeightBananas = bananas * weightBanana;
+        System.out.println(totalWeightBananas);
+        short gramsInOneKilo = 1000;
+        System.out.println(gramsInOneKilo);
+        short milkMl = 200;
+        System.out.println(milkMl);
+        byte gramsIn100MlMilk = 105;
+        System.out.println(gramsIn100MlMilk);
+        int totalWeightMilkKilo = gramsIn100MlMilk * 2;
+        System.out.println(totalWeightMilkKilo);
+        byte iceCream = 2;
+        System.out.println(iceCream);
+        byte weightIceCreamOneBriquetteGram = 100;
+        System.out.println(weightIceCreamOneBriquetteGram);
+        int totalWeightIceCream = weightIceCreamOneBriquetteGram * iceCream;
+        System.out.println(totalWeightIceCream);
+        byte eggs = 4;
+        System.out.println(eggs);
+        byte weightEggGrams = 70;
+        System.out.println(weightEggGrams);
+        int totalWeightEggs = eggs * weightEggGrams;
+        System.out.println(totalWeightEggs);
+        int totalWeightBreakfastGrams = totalWeightBananas + totalWeightMilkKilo + totalWeightIceCream + totalWeightEggs;
+        System.out.println(totalWeightBreakfastGrams);
+        float totalWeightproductsKilo =(float) totalWeightBreakfastGrams / gramsInOneKilo;
+        System.out.println(totalWeightproductsKilo);
+        short dietFirstGramsInDay = 250;
+        System.out.println(dietFirstGramsInDay);
+        short dietSecondGramsInDay = 500;
+        System.out.println(dietSecondGramsInDay);
+        byte totalWeightLossKilo = 7;
+        System.out.println(totalWeightLossKilo);
+        short oneKiloWeightGrams = 1000;
+        System.out.println(oneKiloWeightGrams);
+        int howManyDaysFirstDiet = (totalWeightLossKilo * oneKiloWeightGrams) / dietFirstGramsInDay;
+        System.out.println(howManyDaysFirstDiet);
+        int howManyDaysSecondDiet = (totalWeightLossKilo * oneKiloWeightGrams) / dietSecondGramsInDay;
+        System.out.println(howManyDaysSecondDiet);
+        byte addedSalaryPersent = 10;
+        System.out.println(addedSalaryPersent);
+        float percent100 =(float) 10 / 100;
+        System.out.println(percent100);
+        int salaryMaria = 67760;
+        System.out.println(salaryMaria);
+        int salaryDenis = 83690;
+        System.out.println(salaryDenis);
+        int salaryKristina = 76230;
+        System.out.println(salaryKristina);
+        float totalSalaryMaria =(float) (salaryMaria * percent100) + salaryMaria;
+        System.out.println(totalSalaryMaria);
+        float totalSalaryDenis =(float) (salaryDenis * percent100) + salaryDenis;
+        System.out.println(totalSalaryDenis);
+        float totalSalaryKristina =(float) (salaryKristina * percent100) + salaryKristina;
+        System.out.println(totalSalaryKristina);
+        byte monthsInYear = 12;
+        System.out.println(monthsInYear);
+        int yearSalaruMaria = salaryMaria * monthsInYear;
+        System.out.println(yearSalaruMaria);
+        int yearSalaryDenis = salaryDenis * monthsInYear;
+        System.out.println(yearSalaryDenis);
+        int yearSalaryKristina = salaryKristina * monthsInYear;
+        System.out.println(yearSalaryKristina);
+        float newSalaryMaria = totalSalaryMaria * monthsInYear;
+        System.out.println(newSalaryMaria);
+        float newSalaryDenis = totalSalaryDenis * monthsInYear;
+        System.out.println(newSalaryDenis);
+        float newSalaryKristina = totalSalaryKristina * monthsInYear;
+        System.out.println(newSalaryKristina);
+        float defferentMaria = totalSalaryMaria % salaryMaria;
+        System.out.println(defferentMaria);
+        float defferentDenis = totalSalaryDenis % salaryDenis;
+        System.out.println(defferentDenis);
+        float defferentKristina = totalSalaryKristina % salaryKristina;
+        System.out.println("Маша стала получать " + totalSalaryMaria + " рублей в месяц, с годовым доходом в размере " + yearSalaruMaria + " рублей. При этом разница в доплате соствила " + defferentMaria + " от предыдущей зарплаты до повышения. Денис стал получать " + totalSalaryDenis + " рублей в месяц, с годовым доходом в размере " + yearSalaryDenis + " рублей. При этом разница в доплате составила " + defferentDenis + " от предыдущей зарплаты до повышения. Кристина стала получать " + totalSalaryKristina + " рублей в месяц, с годовым доходом в размере " + yearSalaryKristina + " рублей. При этом разница в доплате составила " + defferentKristina + " от предыдущей зарплаты до повышения.");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
